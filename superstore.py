@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Load data
 
-data = pd.read_csv('C:\\Users\\shamb\\OneDrive\\Desktop\\Data_Analytics\\superstore\\superstore_dataset2011-2015.csv',encoding="ISO-8859-1")
+data = pd.read_csv('superstore_dataset2011-2015.csv',encoding="ISO-8859-1")
 
 
 # Sidebar
@@ -113,3 +113,4 @@ elif hypothesis == "The company's profit is more on weekdays than on weekends.":
 
     # Conclusion
     st.write("Conclusion: The hypothesis is supported as the mean profit is higher on weekdays than on weekends.")
+
